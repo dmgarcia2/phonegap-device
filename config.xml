@@ -23,6 +23,12 @@
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
+    
+    <!-- uses cordova plugin add org.apache.cordova.statusbar to make iOS7 statusbar look right-->
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <!-- edit this to the background color of your app -->
+    <preference name="StatusBarBackgroundColor" value="#595b5b" />
+    
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
