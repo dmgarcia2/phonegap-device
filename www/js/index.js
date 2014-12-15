@@ -13,7 +13,7 @@ application.app = {
 		FastClick.attach(document.body);
         
         // Obteniendo información del dispositivo
-        $('#device-name').html(device.name);
+        $('#device-name').html(device.model);
         $('#device-cordova').html(device.cordova);
         $('#device-platform').html(device.platform);
         $('#device-uuid').html(device.uuid);
